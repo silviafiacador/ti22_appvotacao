@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+h1 {text-align: center; 
+    font-family:"calisto mt";
+    font-weight: bolder;}
+
+h3 {text-align: center;}
+
+input {border-top: none !important; 
+    border-left: none !important;
+    border-right: none !important;
+    text-align: center; 
+    font-family: "Segoe UI";
+    font-style: italic; }
+
+button {font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 600 !important;
+    width: 110.94px;}
+
+#header {
+    background-color:#F2F2F2;
+    padding-top:5px;
+    padding-bottom: 5px;}
+
+#silhueta {max-width: 576px; 
+    display:flex;   /*flexbox*/
+    justify-content: center;}
+
+#silhueta>img{
+   width: 150px;
+   height: 150px;
+   border: none;}
+
+#botoes {display:flex;   /*flexbox*/
+   justify-content: space-evenly; }
